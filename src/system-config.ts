@@ -11,7 +11,8 @@ let map = {
   'app':                        'app', // 'dist',
   'scripts/main':               'scripts/main.js',
   '@angular':                   'node_modules/@angular',
-  'rxjs':                       'node_modules/rxjs'
+  'rxjs':                       'node_modules/rxjs',
+  'traceur':                    'node_modules/traceur/bin/traceur.js',
 };
 // packages tells the System loader how to load when no filename and/or no extension
 let packages = {
